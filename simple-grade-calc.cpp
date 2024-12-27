@@ -35,7 +35,11 @@ int main(){
         break;
     }
 
-    if(grade == 'A' || grade == 'B' || grade == 'c')
+    if(grade == 'A' || grade == 'B' || grade == 'c'|| grade == 'D'){
+        cout << "Congratulations ! You Are Eligible For The Next Level. " <<endl;
+    }else if(grade == 'F'){
+        cout << "Please Try Again Next Time." <<endl;
+    }
 
 
 
